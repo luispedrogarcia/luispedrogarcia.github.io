@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>More about me - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+                            <li><a href="generic.html">About me / CV</a></li>
+                            <li><a href="SAR%20Project.html">Coherence Change Project</a></li>
+							<li class="active"><a href="Machine%20Learning%20for%20Fire%20Detection.html">Machine Learning for Fire Detection</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Final Project Fire Detection using Machine Learning Principles</h1>
+								</header>
+								<div class="image main"><img src="images/Change%20Detecting.jpg" alt="" /></div>
+                                <h2>Introduction</h2>
+								<p>The 2019 to 2020 Australian bushfire season, also known as Black summer, was one of the worst natural disasters in modern history. The extreme fire season not only caused havic within some on the wider ecosystems in central- southern Australia, but had also affected the citizens of the country. By the end of it all, more than 9,000 buildings were vanquished, along with 34 unfortunate lives lost. These damages can be assessed from above with many of the commericial domestic and international satellites and platforms. One of the more prominent platforms from above is Landsat 8, which has been taking images of most portions of the globe. These images are usually utilized to monitor and detect surface processes such as wildfire, ice melt, deforestation thorughout the globe at 14-day intervals  </p>
+                                <h2>Methods</h2>
+								<p>Data used entails (band 1 — band 7) of Landsat 8/OLI Sydney fire as features  and try to predict the binary fire/nonfire class. These 2 images will be used for training and testing. Finally, another multispectral Landsat 8 data acquired in the  the outside of Newcastle (rural town of Murrurundi)  will be used for new predictions. To further prove the effiency o this method, a California fire image will also. Lastly, a Desicion Tree method will also be implemented on the California Fire.</p>
+
+                                <figure>
+                                    <img src="images/EMR.png" alt="" style="width:100%">
+                                    <figcaption><b>Fig 1</b>: This is a graph showing the different ranges and distributions of the electromagnetic spectrum at which each sensors covers. Most areas at which they cover were designed to capture solar radiation signal from the so called "Atmosphereic Window"</figcaption>
+                                    <figcaption><b>Source</b> : https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/dmidS2LS7Comparison.png</figcaption>
+                                </figure>
+                                <h2>Image/feature input for fire detection</h2>
+                                <figure>
+                                    <img src= "images/aussie_fire.png" alt='' style="width:75%">
+                                    <figcaption><b>Fig 2</b>: RGB Composite of the rural town of Murrunundi, Australia on November 8th 2018 </figcaption>
+
+                                </figure>
+                                <figure>
+                                    <img src= "images/aussie_fire_Detectedoutput.png" alt='' style="width:75%">
+                                    <figcaption><b>Fig 3</b>: Detected fire activity marked in yellow </figcaption>
+
+                                </figure>
+                                <h2>Paradise falls fire example</h2>
+                                <figure>
+                                    <img src= "images/cafire.png" alt='' style="width:%">
+                                    <figcaption><b>Fig 4</b>: RGB Landsat /OLI image of the Paradise Falls fire </figcaption>
+                                            
+                                </figure>
+                                <h2>Output from ML algorithim:</h2>
+                                <figure>
+                                    <img src= "images/cafire_ml.png" alt='' style="width:%">
+                                    <figcaption><b>Fig 5</b>: RGB Landsat /OLI image of the Paradise Falls fire with detected fire pixels in white </figcaption>
+
+                                </figure>
+
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
